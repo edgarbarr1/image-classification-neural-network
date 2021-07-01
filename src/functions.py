@@ -9,13 +9,14 @@ import cv2
 import random
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
-from keras import Sequential
-from keras.layers import Dense
-from sklearn.metrics import confusion_matrix
+from keras import Sequential, preprocessing
 from keras.metrics import Recall, Precision
-from keras.layers import Conv2D, MaxPooling2D, Flatten, InputLayer
+from keras.layers import Conv2D, MaxPooling2D, Flatten, InputLayer, Dense, Dropout
 from sklearn.metrics import plot_confusion_matrix
 import time
+from skimage.io import imread
+from keras.preprocessing import image
+from keras.applications.imagenet_utils import decode_predictions
 
 
 def visualize_training_results(history, iteration):
