@@ -17,6 +17,7 @@ import time
 from skimage.io import imread
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import decode_predictions
+from lime import lime_image
 
 
 def visualize_training_results(history, iteration):
