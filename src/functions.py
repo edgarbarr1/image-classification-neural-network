@@ -18,7 +18,38 @@ from skimage.io import imread
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import decode_predictions
 from lime import lime_image
+from skimage.segmentation import mark_boundaries
+import yaml
 
+
+def visualize_training_results_1(history):
+    '''
+    From https://machinelearningmastery.com/display-deep-learning-model-training-history-in-keras/
+    
+    Input: keras history object (output from trained model)
+    '''
+    fig, (ax1, ax2, ax3) = plt.subplots(3, sharex=True)
+    fig.suptitle('Model Results')
+
+    # summarize history for accuracy
+    ax1.plot(history.history['recall'])
+    ax1.plot(history.history['val_recall'])
+    ax1.set_ylabel('Recall')
+    ax1.legend(['train', 'test'], loc='upper left')
+    # summarize history for loss
+    ax2.plot(history.history['loss'])
+    ax2.plot(history.history['val_loss'])
+    ax2.set_ylabel('Loss')
+    ax2.legend(['train', 'test'], loc='upper left')
+    
+    ax3.plot(history.history['precision'])
+    ax3.plot(history.history['val_precision'])
+    ax3.set_ylabel('Precision')
+    ax3.legend(['train', 'test'], loc='upper left')
+    
+    plt.xlabel('Epoch')
+    plt.show()
+    pass
 
 def visualize_training_results(history, iteration):
     '''
@@ -47,16 +78,4 @@ def visualize_training_results(history, iteration):
     
     plt.xlabel('Epoch')
     plt.show()
-    
-
-def create_training_data():
-    for category in categories:
-        path_train = os.path.join(data_dir_train,category)
-        class_num = categories.index(category)
-        for img in os.listdir(path_train):
-            try:
-                img_array_train = cv2.imread(os.path.join(path_train,img), cv2.IMREAD_GRAYSCALE)
-                train_array = cv2.resize(img_array_train,(img_size, img_size))
-                train_data.append([train_array, class_num])
-            except Exception as e:
-                pass
+    pass
