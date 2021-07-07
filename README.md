@@ -55,6 +55,7 @@ A total of 4 Convolutional Neural Networks were created to try to pass our data 
 
 The first model built was a baseline model and not a lot of layers were added. This model was created to see the model performance at a first glance before going deeper in layers. See below for model performance.
 
+![image_2](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/baseline_model.png)
 
 Overall the model had good scores with some overfitting starting to happen after the 4th Epoch. As seen above, the recall score for this model was a 97.02%. This model ran through the data in a little more than a minute in a half.
 
@@ -62,6 +63,7 @@ Overall the model had good scores with some overfitting starting to happen after
 
 For our second model, it was decided that we were still not going to go very deep in layers. The main additions to the model was one additional Dense layer with a relu activation formula and a higher amount of filters. See below for model performance.
 
+![image_3](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/model_2.png)
 
 This model had a slightly better recall score (97.17%) than the previous however the overfitting problem still remained by a point. This model ran through the data in just over 2 minutes.
 
@@ -69,6 +71,7 @@ This model had a slightly better recall score (97.17%) than the previous however
 
 In this model we decided to add more layers and bigger filters to those layers. To begin with, a Dropout layer was added to try and regularize the data and prevent some overfitting. Then a couple more Dense layers were added to the data. See below for model performance.
 
+![image_4](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/model_3.png)
 
 After running our model through 10 epochs, our model performed a solid 95.39% recall score. Although a lower score compared to our 2 prior models, there was significantly less overfitting on our training data. This model ran through our data in 12 minutes.
 
@@ -78,6 +81,7 @@ After validating our model with our holdout data, we had an overall recall score
 
 This model had significantly more layers. This model had 2 Dropout layers and 2 more Conv2D layers along with the pooling layers. See below for model performance.
 
+![image_5](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/model_4.png)
 
 After running through 15 epochs, this model performed at a respectable 97.63% recall and had a bit of overfitting in the training data. After running it through our validation data, this model performed at a 84.78% recall. Keeping this score in mind and that the model's runtime was 30 minutes, it is safe to conclude that this was not our best performing model despite its depth in layers.
 
@@ -87,21 +91,69 @@ With a validated score of. 88.30% recall, and a runtime of 12 minutes, the best 
 
 ## Image 1 ##
 
+![first_image](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image.png)
+
 The first image came from the X_train dataset and had a (1,0) label which is for NORMAL X-ray. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
+**Segmented Full Image**
 
+![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png)
+
+**Segmented Partial Image**
+
+![first_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_blackened.png)
+
+**Pros and Cons**
+
+![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png)
+
+**Heatmap**
+
+![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)
 
 ## Image 2 ##
 
+![second_image](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image.png)
+
 The second image came from the X_test dataset and had a (1,0) label for NORMAL. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
+**Segmented Full Image**
 
+![second_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_unblackened.png)
+
+**Segmented Partial Image**
+
+![second_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_blackened.png)
+
+**Pros and Cons**
+
+![second_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_pros_cons.png)
+
+**Heatmap**
+
+![second_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_heatmap.png)
 
 ## Image 3 ##
 
+![third_image](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image.png)
+
 The second image came from the Xtest dataset and had a (1,0) label for NORMAL. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
+**Segmented Full Image**
 
+![third_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_unblackened.png)
+
+**Segmented Partial Image**
+
+![third_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_blackened.png)
+
+**Pros and Cons**
+
+![third_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_pros_cons.png)
+
+**Heatmap**
+
+![third_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_heatmap.png)
 
 # Conclusion #
 
