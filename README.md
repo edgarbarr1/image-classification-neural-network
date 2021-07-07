@@ -95,6 +95,14 @@ With a validated score of. 88.30% recall, and a runtime of 12 minutes, the best 
 
 The first image came from the X_train dataset and had a (1,0) label which is for NORMAL X-ray. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
+Segmented Full Image | Segmented Partial Image
+------------ | -------------
+![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png) | ![first_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_blackened.png)
+Pros and Cons | Heatmap
+------------- | -------------
+
+![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png) | ![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)column
+
 **Segmented Full Image**
 
 ![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png)
