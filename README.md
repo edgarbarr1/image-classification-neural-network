@@ -119,21 +119,11 @@ Segmented Full Image | Segmented Partial Image
 
 The second image came from the Xtest dataset and had a (1,0) label for NORMAL. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
-**Segmented Full Image**
-
-![third_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_unblackened.png)
-
-**Segmented Partial Image**
-
-![third_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_blackened.png)
-
-**Pros and Cons**
-
-![third_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_pros_cons.png)
-
-**Heatmap**
-
-![third_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_heatmap.png)
+Segmented Full Image | Segmented Partial Image
+------------ | -------------
+![third_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_unblackened.png) | ![third_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_top_pixels_blackened.png)
+**Pros and Cons** | **Heatmap**
+![third_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_pros_cons.png) | ![third_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/third_image_heatmap.png)
 
 # Conclusion #
 
