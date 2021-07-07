@@ -98,9 +98,7 @@ The first image came from the X_train dataset and had a (1,0) label which is for
 Segmented Full Image | Segmented Partial Image
 ------------ | -------------
 ![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png) | ![first_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_blackened.png)
-Pros and Cons | Heatmap
-------------- | -------------
-
+**Pros and Cons** | **Heatmap**
 ![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png) | ![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)column
 
 **Segmented Full Image**
