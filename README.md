@@ -99,23 +99,7 @@ Segmented Full Image | Segmented Partial Image
 ------------ | -------------
 ![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png) | ![first_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_blackened.png)
 **Pros and Cons** | **Heatmap**
-![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png) | ![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)column
-
-**Segmented Full Image**
-
-![first_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_unblackened.png)
-
-**Segmented Partial Image**
-
-![first_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_top_pixels_blackened.png)
-
-**Pros and Cons**
-
-![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png)
-
-**Heatmap**
-
-![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)
+![first_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_pros_cons.png) | ![first_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/first_image_heatmap.png)
 
 ## Image 2 ##
 
@@ -123,21 +107,11 @@ Segmented Full Image | Segmented Partial Image
 
 The second image came from the X_test dataset and had a (1,0) label for NORMAL. After verifying that the image was ready to be used on our model to predict we passed it through and these were the results.
 
-**Segmented Full Image**
-
-![second_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_unblackened.png)
-
-**Segmented Partial Image**
-
-![second_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_blackened.png)
-
-**Pros and Cons**
-
-![second_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_pros_cons.png)
-
-**Heatmap**
-
-![second_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_heatmap.png)
+Segmented Full Image | Segmented Partial Image
+------------ | -------------
+![second_image_unblackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_unblackened.png) | ![second_image_blackened](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_top_pixels_blackened.png)
+**Pros and Cons** | **Heatmap**
+![second_image_pros_cons](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_pros_cons.png) | ![second_image_heatmap](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/second_image_heatmap.png)
 
 ## Image 3 ##
 
