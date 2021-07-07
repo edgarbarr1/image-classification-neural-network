@@ -2,6 +2,8 @@
 
 Using Neural Networks to predict pneumonia based on X-ray images of patient's lungs.
 
+![image1](https://github.com/edgarbarr1/image-classification-neural-network/blob/main/images/doc_holding_xray.jpeg)
+
 ## Repository Directory ##
 
 ```
