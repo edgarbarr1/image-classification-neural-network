@@ -17,7 +17,40 @@ Using Neural Networks to predict pneumonia based on X-ray images of patient's lu
 │
 └── images           <-- Generated graphics and figures to be used in reporting
 ```
+# Instructions #
 
+To replicate this project fork this project, copy your link to your forked repository, and clone to your mahcine.
+- In terminal you can paste the following code:
+
+`git clone <your github url>`
+
+- After cloning, dowload the dataset. (This dataset is 8 GBs so make sure you have a stable internet connections and enough storage)
+- cd into your repo and create an empty folder in the repo:
+
+`mkdir data`
+
+- In your dataset, transfer the train and test folder containind all the images necessary to run the models from the cell_data folder. DO NOT TRANSFER THE cell_data FODLER.
+
+In the end, your repo should look like the following:
+
+```
+├── README.md        <-- Main README file explaining the project's business case,
+│                        methodology, and findings
+│
+├── data             <-- data (from the cell_data folder)
+|                          └── test
+|                                └── NORNAL
+|                                └── PNEUMONIA
+|                          └── train
+|                                └── NORMAL
+|                                └── PNEUMONIA
+│
+├── notebook         <-- Jupyter Notebooks for exploration and presentation
+│
+├── src              <-- Data dictionaries, manuals, and project instructions
+│
+└── images           <-- Generated graphics and figures to be used in reporting
+```
 
 # Background #
 
